@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>no-herd</herd>
+  <maintainer>
+  	<email>loki@lokis-chaos.de</email>
+	<name>Thomas Berger</name>
+  </maintainer>
+  <use>
+    <flag name='iax'>Add support for the IAX2 Protocol</flag>
+	<flag name='im'>Add instant messaging support</flag>
+	<flag name='opus'>Add support for the opus audio codec</flag>
+	<flag name='presence'>Add support for the SIP presence extension</flag>
+	<flag name='sdes'>Add support for SDES key exchange</flag>
+	<flag name='speexdsp'>Add support for speexdp Noise Suppression and Automatic Gain Control</flag>
+	<flag name='tls'>Add support for tls in handshakes</flag>
+	<flag name='zrtp'>Add support for encrypted rtp</flag>
+  </use>
+</pkgmetadata>
